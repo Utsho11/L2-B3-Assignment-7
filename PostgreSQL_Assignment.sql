@@ -93,8 +93,7 @@ SELECT Round(avg(age),2) as average_age from students;
 SELECT * FROM students
     WHERE email LIKE '%example.com'; 
 
-DROP
- TABLE students;
+DROP TABLE students;
 DROP TABLE courses;
 DROP TABLE enrollment;
 
