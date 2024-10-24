@@ -97,6 +97,6 @@ DROP TABLE students;
 DROP TABLE courses;
 DROP TABLE enrollment;
 
-SELECT * FROM students ORDER BY student_id;
+SELECT * FROM students;
 SELECT * FROM courses;
 SELECT * FROM enrollment;
