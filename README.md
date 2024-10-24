@@ -1,18 +1,18 @@
 # Q&A
 
 ## 1. What is PostgreSQL?
-PostgreSQL is a robust, open-source object-relational database management system (ORDBMS) that is widely known for its reliability, extensibility, and standards compliance. It supports both relational and non-relational data types.
+PostgreSQL is a robust, open-source object-relational database management system (ORDBMS) widely known for its reliability, extensibility, and standards compliance support for relational and non-relational data types.
 
 ## 2. What is the purpose of a database schema in PostgreSQL?
-A **schema** in PostgreSQL serves as a logical namespace that groups database objects such as tables, views, and indexes. It helps in organizing and structuring data, avoiding name conflicts, and managing security.
+A **schema** in PostgreSQL is a logical namespace that groups database objects such as tables, views, and indexes. It helps organize data, avoid name conflicts, and manage security.
 
 ## 3. Explain the primary key and foreign key concepts in PostgreSQL.
-- **Primary Key**: A `PRIMARY KEY` is the column or columns that contain values that uniquely identify each row in a table.
-- **Foreign Key**: A `FOREIGN KEY` is a field in one table, that refers to the PRIMARY KEY in another table.
+- **Primary Key**: A `PRIMARY KEY` is a column or columns with a value that uniquely identifies each row in the table.
+- **Foreign Key**: A `FOREIGN KEY` is a field in one table, which refers to a `PRIMARY KEY` in another table.
 
 ## 4. What is the difference between the `VARCHAR` and `CHAR` data types?
-- **VARCHAR**: A variable-length character string that only uses the space required for the actual length of the data, up to a specified limit.
-- **CHAR**: A fixed-length character string that always occupies the specified number of characters, padding with spaces if necessary. It is more rigid and less space-efficient than `VARCHAR`.
+- **VARCHAR**: A variable-length character string that uses only the space necessary for the actual length of the data, up to the specified limit.
+- **CHAR**: A fixed-length character string always accepts the specified number of characters, with spaces padding if necessary. It is more rigorous and space-efficient than `VARCHAR`.
 
 ## 5. Explain the purpose of the `WHERE` clause in a `SELECT` statement.
 The **WHERE** clause is used to filter rows based on specified conditions in a `SELECT` query. It helps us to get data based on our given condition.
